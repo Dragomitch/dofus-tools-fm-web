@@ -209,6 +209,67 @@ Each agent specializes in specific types of work. Tasks are assigned based on re
 
 ---
 
+### Profile 13: REVIEWER
+**Specialization**: Code review, quality assurance, wave validation
+
+**Capabilities**:
+- Review code quality and adherence to standards
+- Verify task completion against acceptance criteria
+- Check integration between components
+- Validate architecture decisions
+- Ensure consistency across codebase
+- Verify testing coverage
+- Check documentation completeness
+- Identify technical debt and issues
+- Validate security best practices
+- Ensure performance considerations
+
+**Tools Required**: All tools (read-only access), code analysis tools
+
+**Typical Tasks**: Wave completion reviews, code quality checks, integration validation
+
+**Review Checklist Per Wave**:
+1. ✅ All tasks in wave completed
+2. ✅ All acceptance criteria met
+3. ✅ Code builds successfully
+4. ✅ Tests pass (if applicable)
+5. ✅ Code follows standards (naming, formatting)
+6. ✅ No security vulnerabilities introduced
+7. ✅ Documentation updated
+8. ✅ Dependencies properly satisfied for next wave
+9. ✅ No breaking changes without approval
+10. ✅ Performance considerations addressed
+
+**Review Report Format**:
+```markdown
+# Wave [X] Review Report
+
+## Summary
+- Status: ✅ APPROVED / ⚠️ APPROVED WITH NOTES / ❌ NEEDS REVISION
+- Reviewed Tasks: [list]
+- Issues Found: [count]
+- Blockers for Next Wave: [yes/no]
+
+## Detailed Findings
+
+### Task: [TASK-ID]
+- Status: ✅ / ⚠️ / ❌
+- Issues: [list or "None"]
+- Recommendations: [list or "None"]
+
+## Overall Assessment
+[Summary of wave quality]
+
+## Recommendations for Next Wave
+[Suggestions and improvements]
+
+## Approval
+- Approved for next wave: [yes/no]
+- Required fixes before proceeding: [list or "None"]
+```
+
+---
+
 ## 2. Task Dependency Matrix
 
 ### Dependency Levels

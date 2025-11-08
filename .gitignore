@@ -1,1 +1,40 @@
+# Work directories
 work/
+.work/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+target/
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Log files
+*.log
+
+# IDE - General
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+._*
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

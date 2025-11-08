@@ -1,0 +1,169 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.m2/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iml
+out/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+*.tmp
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+nbproject/
+.nb-gradle/
+
+# IDE - Sublime
+*.sublime-project
+*.sublime-workspace
+
+# IDE - vi/vim
+*~
+*.swp
+*.swo
+*#
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Gradle
+.gradle/
+build/
+gradle/wrapper/gradle-wrapper.jar
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.properties
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+db.lock.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.properties
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+*.bak
+*.backup
+
+# Generated files
+generated/
+generated-sources/
+
+# Compiled Python files (if using Python scripts)
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Node (if using for frontend tooling)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Application runtime
+*.pid
+*.seed
+*.pid.lock
+
+# SSL/TLS certificates and keys
+*.pem
+*.key
+*.csr
+*.crt
+certificate/
+keystore/
+*.jks
+*.p12
+
+# IntelliJ IDEA local configuration
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/*.xml
+
+# Local test files
+/src/test/resources/*.properties
+/src/test/resources/*.yml
+!src/test/resources/application-test.properties
+!src/test/resources/application-test.yml
+
+# Target directories
+/target
+/**/target/
+**/target/**
+
+# Spring Boot specific
+/spring-boot-example.log
+application.properties.local
+application.yml.local
+
+# Maven specific
+dependency-tree.txt
+
+# Reports
+coverage/
+reports/
+test-results/
+*.html
+
+# Cache directories
+.cache/
+cache/
+
+# macOS specific
+.AppleDouble
+.LSOverride
+.TemporaryItems
